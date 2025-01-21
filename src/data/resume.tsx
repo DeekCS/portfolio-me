@@ -4,10 +4,10 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Almuhanad Alnihmy",
   initials: "AA",
-  url: "https://dillion.io",
+  url: "https://almuhanad.vercel.app/",
   location: "Istanbul, Turkiye",
   locationLink: "https://www.google.com/maps/place/istanbul",
-  description: " Software Engineer | Full-Stack Developer ",
+  description: "Software Engineer | Full-Stack Developer | Web3 Developer",
   summary:
     "With a love for creating dynamic and engaging applications, I bring over 3 years of experience as a full-stack developer focused on crafting seamless Web2 experiences and expanding into Web3. I'm always on the lookout for new tools, best practices, and the latest tech to enhance my work.",
   avatarUrl: "/me.jpeg",
