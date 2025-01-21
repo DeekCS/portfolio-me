@@ -5,6 +5,7 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import Me from "/public/me.jpeg";
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${DATA.name} - Software Engineer`,
     description: DATA.description + " - " + DATA.summary,
+    images: [Me.src],
     url: DATA.url,
     siteName: `${DATA.name} - Software Engineer`,
     locale: "en_US",
@@ -41,6 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name} - Software Engineer`,
     description: DATA.description + " - " + DATA.summary,
+    images: [Me.src],
     card: "summary_large_image",
   },
   verification: {
