@@ -179,7 +179,7 @@ airdropper contract.</li>
       links: [
         {
           type: "Website",
-          href: "skylinetraveltr.com",
+          href: "https://skylinetraveltr.com/en",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -232,7 +232,7 @@ airdropper contract.</li>
       links: [
         {
           type: "Website",
-          href: "tvmanstore.com",
+          href: "https://www.tvmanstore.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -254,7 +254,7 @@ airdropper contract.</li>
       links: [
         {
           type: "Website",
-          href: "leadlinker.com",
+          href: "https://www.leadlinker.me/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
