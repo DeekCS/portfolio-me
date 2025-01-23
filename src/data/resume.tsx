@@ -64,7 +64,7 @@ export const DATA = {
       company: "Skyline Holdings",
       href: "",
       badges: [],
-      location: "Turkey . Remote",
+      location: "Istanbul . Turkey",
       title: "Frontend Web Developer",
       logoUrl: "/skylineholding.webp",
       start: "Jan 2024",

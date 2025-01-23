@@ -13,6 +13,7 @@ interface ResumeCardProps {
   logoUrl: string;
   altText: string;
   title: string;
+  location?: string;
   subtitle?: string;
   href?: string;
   badges?: readonly string[];
@@ -24,6 +25,7 @@ export const ResumeCard = ({
   altText,
   title,
   subtitle,
+  location,
   href,
   badges,
   period,
@@ -81,6 +83,7 @@ export const ResumeCard = ({
               </div>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
+            {location && <div className="text-xs sm:text-sm">{location}</div>}
           </CardHeader>
           {description && (
             <motion.div
