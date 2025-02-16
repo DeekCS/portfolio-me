@@ -2,51 +2,45 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Almuhanad Alnihmy",
+  name: "Abdulkarim Aldeek",
   initials: "AA",
   url: "https://almuhanad.vercel.app/",
-  location: "Istanbul, Turkiye",
-  locationLink: "https://www.google.com/maps/place/istanbul",
-  description: "Software Engineer | Full-Stack Developer | Web3 Developer",
-  summary:
-    "With a love for creating dynamic and engaging applications, I bring over 3 years of experience as a full-stack developer focused on crafting seamless Web2 experiences and expanding into Web3. I'm always on the lookout for new tools, best practices, and the latest tech to enhance my work.",
+  location: "Amman, Jordan",
+  locationLink: "https://www.google.com/maps/place/amman",
+  description: "Software Developer",
+  summary: "Proficient software developer skilled in translating ideas into digital realities using React and React Native. Demonstrated leadership in navigating the intricacies of application development within a tech-centric environment. My unique blend of creative problem-solving and tech enthusiasm ensures smooth user experiences and drives teams toward innovative solutions.",
   avatarUrl: "/me.jpeg",
   skills: [
-    "React",
-    "Next.js",
-    "Angular",
-    "Svelte",
-    "SvelteKit",
-    "Typescript",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Vue.js (Nuxt)",
     "Node.js",
-    "Express.js",
-    "Python",
-    "Java",
-    "C++",
-    "MySql",
-    "MongoDB",
-    "Firebase",
-    "Supabase",
-    "Solidity",
-    "Web3",
-    "Hardhat",
+    "MySQL",
+    "React Native",
+    "Sequelize (ORM)",
+    "Git",
+    "GitHub",
+    "Jira",
+    "Expo"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "almuhanad.alnihmy@gmail.com",
+    email: "abdelkarim.aldeek@gmail.com",
+    phone: "0775650001",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Almuhanad-1",
+        url: "https://github.com/DeekCS",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/almuhanad-alnihmy",
+        url: "https://www.linkedin.com/in/abdulkareem-aldeek/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -58,116 +52,78 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
-      company: "Skyline Holdings",
-      href: "",
+      company: "Desaisiv",
+      href: "desaisiv.com",
       badges: [],
-      location: "Istanbul . Turkey",
-      title: "Frontend Web Developer",
-      logoUrl: "/skylineholding.webp",
-      start: "Jan 2024",
-      end: "present",
+      location: "King Hussein Business Park . Hybrid",
+      title: "MID-Frontend Developer",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEiHvfAWJBox_NPfACPOg-kkNzS2NcdSesA&s",
+      start: "Mar 2024",
+      end: "Present",
       description: `
       <ul>
-      <li>Collaborated with a team of UI/UX designers and backend developers to build web applications.</li>
-      <li>Followed Figma designs meticulously to ensure the application matched the design specifications.</li>
-      <li>Developed and maintained multiple web applications over the past year.</li>
+      <li>Worked closely with designers to make sure the app looked good and was easy to use, following the latest design trends and meeting user expectations.</li>
+      <li>Oversaw code quality through thorough reviews and by setting up a development workflow from development to testing and production environments.</li>
+      <li>Efficiently translate design mockups into functional code</li>
+      <li>Deliver high-quality applications that follow industry best practices</li>
+      <li>Dedicated to effective project management through streamlined version control and seamless collaboration</li>
       </ul>
       `,
     },
     {
-      company: "STYLE Protocol",
+      company: "7ayyak",
       badges: [],
-      href: "",
-      location: "Switzerland . Remote",
-      title: "Full Stack Web3 Developer (Internship)",
-      logoUrl: "/style.png",
-      start: "Feb 2024",
-      end: "May 2024",
+      location: "King Hussein Business Park . Hybrid",
+      title: "Software Developer",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrEF5uW6lNeWg2l08Bz5dXNv3EO0OQw_bYw&s",
+      start: "Feb 2022",
+      end: "Mar 2024",
       description: `
       <ul>
-<li>Created a customized ERC-20 token with built-in distribution logic upon
-deployment.</li>
-<li>Edited and adapted a vesting-tokens dapp to seamlessly operate on a new
-blockchain chain.</li>
-<li>Deployed an airdropper contract, streamlining the efficient distribution of
-tokens.</li>
-<li>Collaborated with cross-functional team.</li>
-<li>Generated detailed documentation for ERC-20 token, vesting tokens dapp, and
-airdropper contract.</li>
-</ul>
+      <li>Created a customized ERC-20 token with built-in distribution logic upon deployment.</li>
+      <li>Edited and adapted a vesting-tokens dapp to seamlessly operate on a new blockchain chain.</li>
+      <li>Deployed an airdropper contract, streamlining the efficient distribution of tokens.</li>
+      <li>Collaborated with cross-functional team.</li>
+      <li>Generated detailed documentation for ERC-20 token, vesting tokens dapp, and airdropper contract.</li>
+      </ul>
       `,
     },
     {
-      company: "CPP Tokens",
-      href: "",
+      company: "Orange Jordan",
       badges: [],
-      location: "Remote",
+      location: "Amman, Jordan",
       title: "Full Stack Web Developer (Internship)",
-      logoUrl: "/cpp.jpeg",
-      start: "Aug 2023",
-      end: "Jan 2024",
-      description: `<ul>
-<li>Developed a secure web store with Binance and PayPal integration.</li>
-<li>Led the creation of an e-commerce platform using Next.js and Firebase.</li>
-<li>Innovated a Telegram bot for real-time job listings updates.</li>
-<li>Revamped a SaaS app with SvelteKit, Supabase, and database migration.</li>
-<li>Created a Chrome extension that helps turning any phone number in a page to a whatsapp link.</li>
-<li>Integrated web components for modular and scalable applications.</li>
-</ul>`,
-    },
-    {
-      company: "Youthink Academy",
-      href: "https://www.youthink.la",
-      badges: [],
-      location: "Istanbul, Turkey",
-      title: "Teaching Assistant & Full Stack Developer",
-      logoUrl: "/youthink.jpeg",
-      start: "Jul 2022",
-      end: "Feb 2023",
+      logoUrl: "https://orange.jo/sites/default/files/styles/640x320/public/2024-01/orange-jordan-achievement-2023_0.jpg?itok=vyMp1zSj",
+      start: "Sep 2021",
+      end: "Mar 2022",
       description: `
       <ul>
-<li>Provided support to more than 60 students.</li>
-<li>Provided tech mentorship and support for students to build websites and applications.</li>
-<li>My tasks vary in nature frequently. On a given day, I perform code reviews, have one-on-one meetings with students who need extra help, give lectures on new topics, live-code examples, and help coach interpersonal skills.</li>
-  </ul>`,
-    },
+      <li>Proficient in programming languages and tools such as HTML, CSS, JavaScript, jQuery, Bootstrap, and React.js.</li>
+      <li>Skilled in creating wireframes and mockups, and experienced in using GitHub, Trello, and Discord.</li>
+      <li>Practiced problem-solving on a daily basis and developed strong analytical and critical thinking skills.</li>
+      <li>Capable of self-learning through active learning methodology, with the ability to quickly adapt to new technologies.</li>
+      </ul>
+      `,
+    }
   ],
   education: [
     {
-      school: "Kütahya University",
+      school: "Al-Balqa' Applied University",
       href: "#",
-      degree: "Bachelor's Degree of Software Engineering",
-      logoUrl: "/dpu.png",
-      start: "2023",
-      end: "-",
-    },
-    {
-      school: "Youthink Academy",
-      href: "#",
-      degree: "Full-stack Web Development Bootcamp",
-      logoUrl: "/youthink.jpeg",
-      start: "Feb 2022",
-      end: "Jun 2022",
-    },
-    {
-      school: "Taiz University",
-      href: "#",
-      degree: "Bachelor's Degree of Software Engineering",
-      logoUrl: "/taiz.png",
-      start: "2019",
-      end: "-",
-    },
+      degree: "Bachelor of Computer Science",
+      logoUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Al-Balqa%27_Applied_University.jpg",
+      start: "2018",
+      end: "Sep 2021",
+    }
   ],
   projects: [
     {
-      title: "Skyline Travel",
-      href: "https://skylinetraveltr.com",
+      title: "Desaisiv Platform",
+      href: "https://desaisiv.com/",
       active: true,
-      description:
-        "A tourism platform for booking tours, apartments, and cars. It also provides a blog for travel tips and news.",
+      description: "Elevate your insurance decisions with Desaisiv – your trusted AI platform. Desaisiv is a platform that uses AI to help insurance companies make better decisions.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -183,82 +139,49 @@ airdropper contract.</li>
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/skylinetravel.webp",
+      image: "/desaisiv-platform.png"
     },
     {
-      title: "Skyline Travel Dashboard",
+      title: "7ayyak",
+      href: "https://7ayyak.tech/",
       active: true,
-      description:
-        "Admin dashboard (with permission-based access) to manage skyline travel platform, bookings, payments, users, partners..etc",
+      description: "Save time, relief stress and boost your productivity with 7ayyak's remote assistant",
       technologies: [
-        "Next.js",
         "Typescript",
         "TailwindCSS",
-        "Shadcn UI",
-        "Next-auth",
-        "next-intl",
+        "Vue.js",
+        "Nuxt.js",
       ],
-      links: [],
-      image: "/skylinetravel-dashboard.webp",
+      links: [
+        {
+          type: "Website",
+          href: "https://skylinetraveltr.com/en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/7ayyak.png"
     },
     {
-      title: "Skyline Real Estate",
+      title: "7ayyak Mobile",
+      href: "https://7ayyak.tech/",
       active: true,
-      description:
-        "A real estate platform for buying, and renting apartments, villas, and lands.",
+      description: "Save time, relief stress and boost your productivity with 7ayyak's remote assistant",
       technologies: [
-        "Next.js",
         "Typescript",
         "TailwindCSS",
-        "Shadcn UI",
-        "next-intl",
-      ],
-      image: "/skyline-realestate.webp",
-      links: [
-        {
-          type: "Website",
-          href: "https://skylineholding.com/en",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-    },
-    {
-      title: "Tvman Store",
-      href: "https://www.tvmanstore.com/",
-      active: true,
-      description:
-        "An e-commerce platform for selling TVs, accessories, and other related products.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Firebase"],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.tvmanstore.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/tvmanstore.webp",
-    },
-    {
-      title: "Leadlinker",
-      active: true,
-      description:
-        "Boost sales with personalized links for WhatsApp, calls, and custom URLs. Sell without a website and track link visits with detailed stats.",
-      technologies: [
-        "SvelteKit",
-        "TailwindCSS",
-        "Supabase",
-        "Auth.js",
-        "PayPal",
-        "Binance",
+        "Expo",
+        "React Native",
+        "React Navigation",
+        "React Native Paper",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://www.leadlinker.me/",
+          type: "Mobile App",
+          href: "https://apps.apple.com/us/app/7ayyak-assistants/id6461456883",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/leadlinker.webp",
+      image: "/mobile-7ayyak.png"
     },
   ],
 } as const;
