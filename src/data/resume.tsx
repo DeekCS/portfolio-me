@@ -3,6 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Abdulkarim Aldeek",
+  
   initials: "AA",
   url: "https://almuhanad.vercel.app/",
   location: "Amman, Jordan",
