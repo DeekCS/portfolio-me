@@ -75,6 +75,7 @@ export const DATA = {
     },
     {
       company: "7ayyak",
+      href: "7ayyak.tech", // Added missing href property
       badges: [],
       location: "King Hussein Business Park . Hybrid",
       title: "Software Developer",
@@ -93,6 +94,7 @@ export const DATA = {
     },
     {
       company: "Orange Jordan",
+      href: "orange.jo", // Added missing href property
       badges: [],
       location: "Amman, Jordan",
       title: "Full Stack Web Developer (Internship)",
