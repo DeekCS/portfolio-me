@@ -138,7 +138,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://skylinetraveltr.com/en",
+          href: "https://desaisiv.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -158,7 +158,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://skylinetraveltr.com/en",
+          href: "https://7ayyak.tech/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
