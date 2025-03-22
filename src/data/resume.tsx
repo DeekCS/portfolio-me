@@ -5,7 +5,7 @@ export const DATA = {
   name: "Abdulkarim Aldeek",
   
   initials: "AA",
-  url: "https://almuhanad.vercel.app/",
+  url: "https://portfolio-me-khaki.vercel.app/",
   location: "Amman, Jordan",
   locationLink: "https://www.google.com/maps/place/amman",
   description: "Software Developer",
