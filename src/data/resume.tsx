@@ -3,13 +3,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Abdulkarim Aldeek",
-  
+
   initials: "AA",
-  url: "https://portfolio-me-khaki.vercel.app/",
+  url: "https://www.abdelkarim-aldeek.me/",
   location: "Amman, Jordan",
   locationLink: "https://www.google.com/maps/place/amman",
   description: "Software Developer",
-  summary: "Proficient software developer skilled in translating ideas into digital realities using React and React Native. Demonstrated leadership in navigating the intricacies of application development within a tech-centric environment. My unique blend of creative problem-solving and tech enthusiasm ensures smooth user experiences and drives teams toward innovative solutions.",
+  summary:
+    "Proficient software developer skilled in translating ideas into digital realities using React and React Native. Demonstrated leadership in navigating the intricacies of application development within a tech-centric environment. My unique blend of creative problem-solving and tech enthusiasm ensures smooth user experiences and drives teams toward innovative solutions.",
   avatarUrl: "/me.jpeg",
   skills: [
     "HTML",
@@ -24,11 +25,23 @@ export const DATA = {
     "Git",
     "GitHub",
     "Jira",
-    "Expo"
+    "Expo",
+    "TailwindCSS",
+    "Shadcn UI",
+    "Next.js",
+    "Typescript",
+    "Redux",
+    "Zustand",
+    "React Query",
+    "React Hook Form",
+    "Zod",
+    "Next-auth",
+    "RESTful APIs",
+    "Agile Methodologies",
+    "Problem Solving",
+    "Analytical Thinking",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "abdelkarim.aldeek@gmail.com",
     phone: "0775650001",
@@ -59,8 +72,9 @@ export const DATA = {
       href: "desaisiv.com",
       badges: [],
       location: "King Hussein Business Park . Hybrid",
-      title: "MID-Frontend Developer",
-      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEiHvfAWJBox_NPfACPOg-kkNzS2NcdSesA&s",
+      title: "Sr. Frontend Developer",
+      logoUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEiHvfAWJBox_NPfACPOg-kkNzS2NcdSesA&s",
       start: "Mar 2024",
       end: "Present",
       description: `
@@ -79,7 +93,8 @@ export const DATA = {
       badges: [],
       location: "King Hussein Business Park . Hybrid",
       title: "Software Developer",
-      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrEF5uW6lNeWg2l08Bz5dXNv3EO0OQw_bYw&s",
+      logoUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrEF5uW6lNeWg2l08Bz5dXNv3EO0OQw_bYw&s",
       start: "Feb 2022",
       end: "Mar 2024",
       description: `
@@ -98,7 +113,8 @@ export const DATA = {
       badges: [],
       location: "Amman, Jordan",
       title: "Full Stack Web Developer (Internship)",
-      logoUrl: "https://orange.jo/sites/default/files/styles/640x320/public/2024-01/orange-jordan-achievement-2023_0.jpg?itok=vyMp1zSj",
+      logoUrl:
+        "https://orange.jo/sites/default/files/styles/640x320/public/2024-01/orange-jordan-achievement-2023_0.jpg?itok=vyMp1zSj",
       start: "Sep 2021",
       end: "Mar 2022",
       description: `
@@ -109,24 +125,26 @@ export const DATA = {
       <li>Capable of self-learning through active learning methodology, with the ability to quickly adapt to new technologies.</li>
       </ul>
       `,
-    }
+    },
   ],
   education: [
     {
       school: "Al-Balqa' Applied University",
       href: "#",
       degree: "Bachelor of Computer Science",
-      logoUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Al-Balqa%27_Applied_University.jpg",
+      logoUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/8/8b/Al-Balqa%27_Applied_University.jpg",
       start: "2018",
       end: "Sep 2021",
-    }
+    },
   ],
   projects: [
     {
       title: "Desaisiv Platform",
       href: "https://desaisiv.com/",
       active: true,
-      description: "Elevate your insurance decisions with Desaisiv – your trusted AI platform. Desaisiv is a platform that uses AI to help insurance companies make better decisions.",
+      description:
+        "Elevate your insurance decisions with Desaisiv – your trusted AI platform. Desaisiv is a platform that uses AI to help insurance companies make better decisions.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -134,6 +152,10 @@ export const DATA = {
         "Shadcn UI",
         "Next-auth",
         "next-intl",
+        "React Query",
+        "React Hook Form",
+        "Zod",
+        "Redux",
       ],
       links: [
         {
@@ -142,19 +164,71 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/desaisiv-platform.png"
+      image: "/desaisiv-platform.png",
+    },
+    {
+      title: "TameenLink Platform",
+      href: "https://tameenlink.com/",
+      active: true,
+      description:
+        "first digital insurance broker in the KSA specializing in serving medium and large companies.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "next-intl",
+        "Redux",
+        "Zustand",
+        "React Query",
+        "React Hook Form",
+        "Zod",
+        "Redux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tameenlink.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/tameenlink.png",
+    },
+    {
+      title: "TameenLink Admin",
+      href: "https://admin.tameenlink.com/",
+      active: true,
+      description:
+        "first digital insurance broker in the KSA specializing in serving medium and large companies.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "next-intl",
+        "Redux",
+        "Zustand",
+        "React Query",
+        "React Hook Form",
+        "Zod",
+        "Redux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://admin.tameenlink.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/admin-tameenlink.png",
     },
     {
       title: "7ayyak",
       href: "https://7ayyak.tech/",
       active: true,
-      description: "Save time, relief stress and boost your productivity with 7ayyak's remote assistant",
-      technologies: [
-        "Typescript",
-        "TailwindCSS",
-        "Vue.js",
-        "Nuxt.js",
-      ],
+      description:
+        "Save time, relief stress and boost your productivity with 7ayyak's remote assistant",
+      technologies: ["Typescript", "TailwindCSS", "Vue.js", "Nuxt.js"],
       links: [
         {
           type: "Website",
@@ -162,13 +236,14 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/7ayyak.png"
+      image: "/7ayyak.png",
     },
     {
       title: "7ayyak Mobile",
       href: "https://7ayyak.tech/",
       active: true,
-      description: "Save time, relief stress and boost your productivity with 7ayyak's remote assistant",
+      description:
+        "Save time, relief stress and boost your productivity with 7ayyak's remote assistant",
       technologies: [
         "Typescript",
         "TailwindCSS",
@@ -176,6 +251,10 @@ export const DATA = {
         "React Native",
         "React Navigation",
         "React Native Paper",
+        "Redux",
+        "Axios",
+        "React Native Reanimated",
+        "React Native Gesture Handler",
       ],
       links: [
         {
@@ -184,7 +263,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/mobile-7ayyak.png"
+      image: "/mobile-7ayyak.png",
     },
   ],
 } as const;
