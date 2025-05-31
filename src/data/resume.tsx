@@ -72,7 +72,7 @@ export const DATA = {
       href: "desaisiv.com",
       badges: [],
       location: "King Hussein Business Park . Hybrid",
-      title: "Sr. Frontend Developer",
+      title: "Frontend Developer",
       logoUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEiHvfAWJBox_NPfACPOg-kkNzS2NcdSesA&s",
       start: "Mar 2024",
