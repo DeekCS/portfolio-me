@@ -84,6 +84,8 @@ export const DATA = {
       <li>Efficiently translate design mockups into functional code</li>
       <li>Deliver high-quality applications that follow industry best practices</li>
       <li>Dedicated to effective project management through streamlined version control and seamless collaboration</li>
+      <li>Utilized Git for version control and collaborated with team members using GitHub.</li>
+      <li>Participated in code reviews to maintain code quality and share knowledge with team members.</li>
       </ul>
       `,
     },
@@ -99,11 +101,15 @@ export const DATA = {
       end: "Mar 2024",
       description: `
       <ul>
-      <li>Created a customized ERC-20 token with built-in distribution logic upon deployment.</li>
-      <li>Edited and adapted a vesting-tokens dapp to seamlessly operate on a new blockchain chain.</li>
-      <li>Deployed an airdropper contract, streamlining the efficient distribution of tokens.</li>
-      <li>Collaborated with cross-functional team.</li>
-      <li>Generated detailed documentation for ERC-20 token, vesting tokens dapp, and airdropper contract.</li>
+      <li>Developed and maintained the 7ayyak platform, a remote assistant service, using Vue.js and Nuxt.js.</li>
+      <li>Implemented responsive design principles to ensure optimal user experience across various devices.</li>
+      <li>Collaborated with cross-functional teams to define, design, and ship new features.</li>
+      <li>Utilized Git for version control and collaborated with team members using GitHub.</li>
+      <li>Participated in code reviews to maintain code quality and share knowledge with team members.</li>
+      <li>Worked on the 7ayyak mobile application using React Native, ensuring a seamless user experience.</li>
+      <li>Integrated RESTful APIs to enhance application functionality and performance.</li>
+      <li>Contributed to the development of the 7ayyak platform's backend using Node.js and MySQL.</li>
+      <li>Implemented state management using Redux and Zustand for efficient data handling.</li>
       </ul>
       `,
     },
