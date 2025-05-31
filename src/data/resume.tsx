@@ -201,7 +201,7 @@ export const DATA = {
       image: "/tameenlink.png",
     },
     {
-      title: "TameenLink Admin",
+      title: "TameenLink Admin (Under Development)",
       href: "https://admin.tameenlink.com/",
       active: true,
       description:
